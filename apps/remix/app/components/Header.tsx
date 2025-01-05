@@ -10,11 +10,11 @@ export default function Header() {
       <Link to="/" className="font-bold flex items-center justify-center gap-3">
         <VmailLogo />
         <button className="cool-btn">
-          <span>VMAIL.DEV</span>
+          <span>illsky.us.kg</span>
         </button>
       </Link>
       <Link
-        to="https://www.oiov.dev"
+        to="https://blog.illsky.com/"
         target="_blank"
         className="ml-auto text-sm md:text-base hidden md:block">
         {t("Blog")}
@@ -37,7 +37,7 @@ export default function Header() {
       <Link
         className="ml-3 md:ml-8"
         target="_blank"
-        to="https://github.com/oiov/vmail">
+        to="https://github.com/shuyuncong0/vmail">
         <button className="whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background hover:bg-accent hover:text-accent-foreground text-md flex h-[32px] w-[85px] cursor-pointer items-center justify-center rounded-md border-2 p-2 font-semibold hover:opacity-50">
           <GithubPlat />
           <div className="ml-1.5 text-sm">Star</div>

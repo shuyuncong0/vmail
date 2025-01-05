@@ -16,7 +16,7 @@
 
 | 变量名           | 说明                        | 示例                  |
 | ---------------- | --------------------------- | --------------------- |
-| DKIM_DOMAIN      | 可选，域名后缀              | `vmail.dev`           |
+| DKIM_DOMAIN      | 可选，域名后缀              | `illsky.us.kg`           |
 | DKIM_PRIVATE_KEY | 可选，DKIM 私钥             | `MIIEpQIBAAKCAQEA...` |
 | DKIM_SELECTOR    | 可选，固定值 `mailchannels` | `mailchannels`        |
 
@@ -81,7 +81,7 @@ echo -n "v=DKIM1;p=" > dkim_record.txt && openssl rsa -in private_key.pem -pubou
 ```json
 {
   "from": {
-      "email": "sender@vmail.dev",
+      "email": "sender@illsky.us.kg",
       "name": "发送者"
   },
   "personalizations": [

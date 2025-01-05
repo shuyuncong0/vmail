@@ -8,7 +8,7 @@
 
 然后，创建一个名为 `emails` 的表。
 
-选择您的数据库，您会看到“编辑表”按钮，点击并进入，继续点击左上角的 `SQL runner` 按钮，将[sql脚本](https://github.com/oiov/vmail/blob/main/packages/database/drizzle/0000_sturdy_arclight.sql)复制到终端运行:
+选择您的数据库，您会看到“编辑表”按钮，点击并进入，继续点击左上角的 `SQL runner` 按钮，将[sql脚本](https://github.com/shuyuncong0/vmail/blob/main/packages/database/drizzle/0000_sturdy_arclight.sql)复制到终端运行:
 
 <details>
 <summary>查看脚本内容</summary>
@@ -62,7 +62,7 @@ npm install -g pnpm
 ```
 
 ```bash
-git clone https://github.com/oiov/vmail
+git clone https://github.com/shuyuncong0/vmail
 
 cd vmail
 
@@ -74,7 +74,7 @@ pnpm install
 
 - TURSO_DB_AUTH_TOKEN（第1步中的turso表信息，点击“Generate Token”）
 - TURSO_DB_URL（例如 libsql://db-name.turso.io）
-- EMAIL_DOMAIN (域名，如 vmail.dev)
+- EMAIL_DOMAIN (域名，如 illsky.us.kg)
   
 > 如果您不执行此步骤，可以在Cloudflare的 worker settings 中添加环境变量
 
@@ -92,7 +92,7 @@ pnpm run deploy
 
 ![](https://img.inke.app/file/fa39163411cd35fad0a7f.png) 
 
-**4.在 Vercel 或 fly.io 上部署 Remix 应用程序**
+**4.在 Vercel 上部署 Remix 应用程序**
 
 确保在部署时准备并填写以下环境变量（`.env.example`）：
 
@@ -101,7 +101,7 @@ pnpm run deploy
 | COOKIES_SECRET         | 必填，cookie加密密钥，随机字符串      | `12345abcde`                |
 | TURSO_DB_RO_AUTH_TOKEN | 必填，turso数据库只读凭据             | `my-turso-db-ro-auth-token` |
 | TURSO_DB_URL           | 必填，turso数据库URL                  | `libsql://db-name.turso.io` |
-| EMAIL_DOMAIN           | 必填，域名后缀，支持多个              | `vmail.dev,meetu.dev`       |
+| EMAIL_DOMAIN           | 必填，域名后缀，支持多个              | `illsky.us.kg,meetu.dev`       |
 | EXPIRY_TIME            | 可选，邮箱过期时间，单位秒，默认86400 | `86400`                     |
 | TURNSTILE_KEY          | 可选，网站验证所需的 Turnstile Key    | `my-turnstile-key`          |
 | TURNSTILE_SECRET       | 可选，网站验证所需的 Turnstile Secret | `my-turnstile-secret`       |
@@ -145,6 +145,6 @@ vercel 演示如何解析：
 
 > 若不修改，访问网站会出现`重定向次数过多`错误
 
-![](https://img.vmail.dev/api/img/KK8Qwp)
+![](https://img.illsky.us.kg/api/img/KK8Qwp)
 
 以上，完成！

@@ -9,41 +9,29 @@ export default function Footer() {
   return (
     <div className="text-white w-full mt-auto flex flex-col items-center justify-between px-5 pt-16 mb-10 md:px-10 mx-auto sm:flex-row">
       <Link to="/" className="text-xl font-black leading-none select-none logo">
-        VMAIL.DEV
+        illsky.us.kg
       </Link>{" "}
       <p className="mt-4 text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
         © 2024 Products of{" "}
         <Link
           className="font-semibold underline hover:text-gray-600"
-          to="https://www.oiov.dev"
+          to="https://blog.illsky.com/"
           target="_blank">
-          oiov
+          shuyuncong
         </Link>
         .
       </p>
       <div className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
+        
         <Link
-          to="https://wr.do"
-          target="_blank"
-          title="WR.DO"
-          className="text-gray-400 hover:text-gray-500  scale-[1.2]">
-          <WrdoLogo className="w-6 h-6" />
-        </Link>
-        <Link
-          to="mailto:hi@oiov.dev"
+          to="mailto:shuyuncong@illsky.us.kg"
           title="Email"
           className="text-gray-400 hover:text-gray-500">
           <MailIcon className="w-6 h-6" />
         </Link>
+       
         <Link
-          to="https://twitter.com/yesmoree"
-          target="_blank"
-          title="Twitter"
-          className="text-gray-400 hover:text-gray-500">
-          <Twitter />
-        </Link>
-        <Link
-          to="https://github.com/oiov/vmail"
+          to="https://github.com/shuyuncong0/vmail"
           target="_blank"
           title="Github"
           className="text-gray-400 hover:text-gray-500">

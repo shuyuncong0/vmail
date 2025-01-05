@@ -1,6 +1,6 @@
 <div align="center">
   <h1>𝐕𝐌𝐀𝐈𝐋.𝐃𝐄𝐕</h1>
-  <p><a href="https://discord.gg/d68kWCBDEs">Discord</a> · <a href="https://github.com/oiov/vmail/blob/main/README_en.md">English</a> | 简体中文</p>
+  <p><a href="https://discord.gg/d68kWCBDEs">Discord</a> · <a href="https://github.com/shuyuncong0/vmail/blob/main/README_en.md">English</a> | 简体中文</p>
   <p>使用 Cloudflare email worker 实现的临时电子邮件服务</p>
   <a href="https://trendshift.io/repositories/8681" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8681" alt="yesmore%2Fvmail | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
   <!-- <img src="https://img.inke.app/file/beb0212f96c6cd37eaeb8.jpg"/> -->
@@ -19,7 +19,7 @@
 - Email worker 接收电子邮件
 - 前端显示电子邮件（remix）
 - 邮件存储（sqlite）
-- 发信使用 MailChannel API
+
 
 ## 👋 自部署教程
 
@@ -37,7 +37,7 @@
 ### 发送邮件教程
 
 ```JSON
-注意：不再建议使用此方法，原因参考 issue#17，vmail.dev 将下线发件功能
+注意：不再建议使用此方法，原因参考 issue#17，illsky.us.kg 将下线发件功能
 ```
 
 查看 [send-tutorial.md](/docs/send-tutorial.md)
@@ -45,7 +45,7 @@
 ## 🔨 本地运行调试
 
 ```bash
-git clone https://github.com/oiov/vmail
+git clone https://github.com/shuyuncong0/vmail
 cd vmail
 # 安装依赖
 pnpm install
@@ -80,4 +80,4 @@ GNU General Public License v3.0
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=oiov/vmail&type=Date)](https://star-history.com/#oiov/vmail&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=shuyuncong0/vmail&type=Date)](https://star-history.com/#shuyuncong0/vmail&Date)

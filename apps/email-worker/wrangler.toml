@@ -1,11 +1,11 @@
 name = "email-worker"
 main = "src/index.ts"
-compatibility_date = "2023-12-18"
+compatibility_date = "2025-01-05"
 
 [vars]
-TURSO_DB_AUTH_TOKEN = ""
-TURSO_DB_URL = ""
-EMAIL_DOMAIN = "vmail.dev"
+TURSO_DB_AUTH_TOKEN = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3MzUxMzIyODcsImlkIjoiNTBiYTY5MDktZWQ5Yi00OThiLWJkNDktYzE5ZTk5MTkwOGY3In0.x0x4F86yNcOE28xtB6i1u2ZJY2WAbfuP29UZOpN4AnuIrvdFXNIHaRxJ5pqGBS_YGoUwSY9EIvOVIeHE-Q8JDg"
+TURSO_DB_URL = "libsql://vmail-shuyuncong.turso.io"
+EMAIL_DOMAIN = "illsky.us.kg"
 
 # [[d1_databases]]
 # binding = "DB"

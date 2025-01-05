@@ -6,7 +6,7 @@ After registration, you will be prompted to create a database. I named it `vmail
 
 ![](https://img.inke.app/file/3773b481c78c9087140b1.png)
 
-Select your database, you will see the "Edit Table" button, click and enter, continue to click the "SQL Runner" button in the upper left corner, and insert the [SQL Script](https://github.com/oiov/vmail/blob/main/packages/database/drizzle/0000_sturdy_arclight.sql) Copy to Terminal Run:
+Select your database, you will see the "Edit Table" button, click and enter, continue to click the "SQL Runner" button in the upper left corner, and insert the [SQL Script](https://github.com/shuyuncong0/vmail/blob/main/packages/database/drizzle/0000_sturdy_arclight.sql) Copy to Terminal Run:
 
 ```bash
 # Copy sql script to run on the terminal (packages/database/drizzle/0000_sturdy_arclight.sql)
@@ -38,7 +38,7 @@ CREATE TABLE `emails` (
 **2.Deploy email workers**
 
 ```bash
-git clone https://github.com/oiov/vmail
+git clone https://github.com/shuyuncong0/vmail
 
 cd vmail
 
@@ -50,7 +50,7 @@ Fill in the necessary environment variables in `vmail/apps/email-worker/wrangler
 
 - TURSO_DB_AUTH_TOKEN (turso table info from step 1，click `Generate Token`)
 - TURSO_DB_URL (e.g. libsql://db-name.turso.io)
-- EMAIL_DOMAIN (e.g. vmail.dev)
+- EMAIL_DOMAIN (e.g. illsky.us.kg)
 
 > If you don't do this step, you can add environment variables in the worker settings of Cloudflare
 
@@ -78,7 +78,7 @@ Ensure that the following environment variables (`.env.example`) are prepared an
 | COOKIES_SECRET         | The encryption secret of the cookie, a random string is sufficient | `s3cr3t`                               |
 | TURSO_DB_RO_AUTH_TOKEN | Obtain database credentials from turso                             | `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9` |
 | TURSO_DB_URL           | Obtain database credentials from turso                             | `libsql://db-name.turso.io`            |
-| EMAIL_DOMAIN           | email domains                                                      | `vmail.dev,meetu.dev`                  |
+| EMAIL_DOMAIN           | email domains                                                      | `illsky.us.kg`                  |
 | EXPIRY_TIME            | Optional. default `86400`                                          | `86400`                                |
 | TURNSTILE_KEY          | Optional. Obtained from Cloudflare for website verification        | `1234567890`                           |
 | TURNSTILE_SECRET       | Optional. Obtained from Cloudflare for website verification        | `s3cr3t`                               |

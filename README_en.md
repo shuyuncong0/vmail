@@ -43,7 +43,7 @@ See [send-tutorial-en.md](/docs/send-tutorial-en.md)
 copy `apps/remix/.env.example` to `apps/remix/.env` and fill in the necessary environment variables.
 
 ```bash
-git clone https://github.com/oiov/vmail
+git clone https://github.com/shuyuncong0/vmail
 cd vmail
 pnpm install
 
@@ -62,6 +62,6 @@ GNU General Public License v3.0
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=oiov/vmail&type=Date)](https://star-history.com/#oiov/vmail&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=shuyuncong0/vmail&type=Date)](https://star-history.com/#shuyuncong0/vmail&Date)
 
 Inspired by smail.pw & email.ml
