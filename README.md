@@ -34,13 +34,7 @@
 
 查看 [receive-tutorial.md](/docs/receive-tutorial.md)
 
-### 发送邮件教程
 
-```JSON
-注意：不再建议使用此方法，原因参考 issue#17，illsky.us.kg 将下线发件功能
-```
-
-查看 [send-tutorial.md](/docs/send-tutorial.md)
 
 ## 🔨 本地运行调试
 
