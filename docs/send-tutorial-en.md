@@ -16,7 +16,7 @@ Here we will manually create it:
 
 | Variable Name    | Description                          | Example               |
 | ---------------- | ------------------------------------ | --------------------- |
-| DKIM_DOMAIN      | Optional, domain suffix              | `illsky.us.kg`           |
+| DKIM_DOMAIN      | Optional, domain suffix              | `illsky.dpdns.org`           |
 | DKIM_PRIVATE_KEY | Optional, DKIM private key           | `MIIEpQIBAAKCAQEA...` |
 | DKIM_SELECTOR    | Optional, fixed value `mailchannels` | `mailchannels`        |
 
@@ -81,7 +81,7 @@ Method two: Send via API
 ```json
 {
   "from": {
-      "email": "sender@illsky.us.kg",
+      "email": "sender@illsky.dpdns.org",
       "name": "Sender"
   },
   "personalizations": [

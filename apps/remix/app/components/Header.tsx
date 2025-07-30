@@ -10,7 +10,7 @@ export default function Header() {
       <Link to="/" className="font-bold flex items-center justify-center gap-3">
         <VmailLogo />
         <button className="cool-btn">
-          <span>illsky.us.kg</span>
+          <span>illsky.dpdns.org</span>
         </button>
       </Link>
       <Link

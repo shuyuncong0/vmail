@@ -19,7 +19,7 @@ export default function Index() {
           Privacy Policy
         </h1>
         <p className="mt-8">
-          At illsky.us.kg, we value the privacy of our users and are committed to
+          At illsky.dpdns.org, we value the privacy of our users and are committed to
           protecting their personal information. This Privacy Policy outlines
           the practices we follow regarding the collection, use, storage, and
           deletion of data on our one-time email website.
